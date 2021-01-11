@@ -1,0 +1,44 @@
+.section--4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  border-bottom-style: solid;
+  border-color: rgb(156, 154, 154);
+  border-width: 0 0 1px 0;
+
+  .ratings--container {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+
+    margin-bottom: 3rem;
+    height: 25rem;
+    .rating {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 15rem;
+      .rating__level__1 {
+        background-color: grey;
+        height: 14rem;
+      }
+      .rating__level__2 {
+        background-color: grey;
+        height: 22.5rem;
+      }
+      .rating__level__3 {
+        background-color: grey;
+        height: 18rem;
+      }
+      .rating__level__empty {
+        font-size: 2em;
+        text-align: center;
+      }
+      .rating__site {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

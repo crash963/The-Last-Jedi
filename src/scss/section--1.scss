@@ -1,0 +1,20 @@
+.section--1 {
+  background: url(/img/welcome.jpg) center/cover no-repeat;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 7rem;
+  }
+  h2 {
+    margin-top: -4rem;
+    font-size: 3rem;
+    color: grey;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,26 @@
+.section--2 {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  align-items: center;
+  .poster--text--container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+
+    img {
+      width: 20rem;
+    }
+    div {
+      width: 60%;
+      h3 {
+        font-size: 2em;
+        font-weight: 400;
+      }
+      p {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

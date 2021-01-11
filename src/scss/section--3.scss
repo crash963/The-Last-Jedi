@@ -1,0 +1,29 @@
+.section--3 {
+  background: url(/img/rey-standing.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .characters--img--container {
+    margin-bottom: 4rem;
+    img {
+      border-radius: 50%;
+    }
+    .img__biggest {
+      width: 14rem;
+    }
+
+    .img__big {
+      width: 12rem;
+    }
+
+    .img__small {
+      width: 10rem;
+    }
+
+    .img__smallest {
+      width: 8rem;
+    }
+  }
+}
